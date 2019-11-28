@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-11-14T12:56:16 IST" name=" Test Automation Test Suite" finished-at="2019-11-14T12:57:00 IST" duration-ms="43710">
+    <groups>
+    </groups>
+    <test started-at="2019-11-14T12:56:16 IST" name="Smoke test" finished-at="2019-11-14T12:56:36 IST" duration-ms="19604">
+      <class name="test.registrationTestcases">
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:test.registrationTestcases@63070bab]" started-at="2019-11-14T12:56:16 IST" name="init" finished-at="2019-11-14T12:56:35 IST" duration-ms="19355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.registrationTestcases@63070bab]" started-at="2019-11-14T12:56:35 IST" name="setUp" finished-at="2019-11-14T12:56:35 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitle()[pri:0, instance:test.registrationTestcases@63070bab]" started-at="2019-11-14T12:56:35 IST" name="verifyTitle" finished-at="2019-11-14T12:56:36 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+      </class> <!-- test.registrationTestcases -->
+    </test> <!-- Smoke test -->
+    <test started-at="2019-11-14T12:56:36 IST" name="Smoke test1" finished-at="2019-11-14T12:57:00 IST" duration-ms="23992">
+      <class name="test.registrationTestcases">
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:test.registrationTestcases@7c1e2a9e]" started-at="2019-11-14T12:56:36 IST" name="init" finished-at="2019-11-14T12:57:00 IST" duration-ms="23964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.registrationTestcases@7c1e2a9e]" started-at="2019-11-14T12:57:00 IST" name="setUp" finished-at="2019-11-14T12:57:00 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitle()[pri:0, instance:test.registrationTestcases@7c1e2a9e]" started-at="2019-11-14T12:57:00 IST" name="verifyTitle" finished-at="2019-11-14T12:57:00 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+      </class> <!-- test.registrationTestcases -->
+    </test> <!-- Smoke test1 -->
+  </suite> <!--  Test Automation Test Suite -->
+</testng-results>
