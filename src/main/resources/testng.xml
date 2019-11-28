@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name=" Test Automation Test Suite" >
+
+    <test name="Smoke test">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+
+<!--            <class name="test.AutomationPracticeDashboardTest"></class>-->
+<!--            <class name="test.EnterEmailTest"></class>-->
+            <class name="test.RegistrationPageTest"></class>
+
+<!--            <class name="test.UserFormTest"></class>-->
+<!--            <class name="test.LoginPageTest"></class>-->
+<!--            <class name="test.MyAccountTest"></class>-->
+<!--            <class name="test.WomenProductsTest"></class>-->
+        </classes>
+    </test>
+
+<!--    <test name="Smoke test1">-->
+<!--        <parameter name="browserName" value="firefox"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="test.LoginPageTest"></class>-->
+<!--            <class name="test.UserFormTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>
+
